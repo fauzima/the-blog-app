@@ -1,0 +1,42 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^16.0.0",
+    "@contentful/rich-text-types": "^17.0.0",
+    "@types/aos": "^3.0.7",
+    "@types/dateformat": "^5.0.2",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.4.5",
+    "formik": "^2.4.6",
+    "jwt-decode": "^4.0.0",
+    "next": "14.2.16",
+    "next-themes": "^0.4.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-quill": "^2.0.0",
+    "react-toastify": "^10.0.6",
+    "usehooks-ts": "^3.1.0",
+    "yup": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8",
+    "prettier": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
